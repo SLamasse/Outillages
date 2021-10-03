@@ -32,6 +32,13 @@ Voici ce qui se passe ensuite ligne par ligne
 
 A propos de la fonction convert : 
 ```bash 
-
-
+convert  
+    -sharpen 0x4 
+    -verbose 
+    -density 150 
+    -trim 
+    "$inputfile" # le nom de fichier initial 
+    -quality 100  
+    -resize 900x900 
+    "$outputfile" # le nouveau ne fichier 
 ```
