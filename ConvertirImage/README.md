@@ -21,7 +21,7 @@ Quelques petites explications, nous allons utiliser une boucle et un sous progra
 Cette première instruction du fichierdéclare qu'il s'agit d'un script shell.
 
 Voici ce qui se passe ensuite ligne par ligne 
-1. On débute une boucle qui déclare que l'on va prendre chaque fichier du répertoire dont l'extension est _pdf_ (for...;) 
-2. *do* débute l'execution de la boucle
-3. 
-do #début de la boucle
+1. On débute une boucle qui déclare que l'on va prendre chaque fichier du répertoire dont l'extension est **pdf** dans une variable _inputfile_ (for inputfile ...;) 
+2. **do** débute l'execution de la boucle
+3. outputfile="${inputfile%.*}.jpg"  permet de mettre le nom du fichier lu dans une variable 
+
