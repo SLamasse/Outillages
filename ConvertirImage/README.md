@@ -42,3 +42,9 @@ convert
     -resize 900x900 
     "$outputfile" # le nouveau ne fichier 
 ```
+
+
+on peut faire l'inverse et transformer tous les jpg dans un seul pdf et c'est très simple : 
+```bash 
+convert *.jpg -auto-orient resultat.pdf
+```
