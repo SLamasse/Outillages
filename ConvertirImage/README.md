@@ -10,4 +10,6 @@ for inputfile in ./*.pdf ; do
 done
 ```
 
+Quelques petites explications, nous allons utiliser une boucle et un sous programme qui se nomme Imagemagick avec une [documentation](https://imagemagick.org/script/command-line-options.php) et des [exemples](https://legacy.imagemagick.org/Usage/) 
+
 
