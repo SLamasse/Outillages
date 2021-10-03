@@ -14,18 +14,24 @@ done
 
 Quelques petites explications, nous allons utiliser une boucle et un sous programme qui se nomme Imagemagick avec une [documentation](https://imagemagick.org/script/command-line-options.php) et des [exemples](https://legacy.imagemagick.org/Usage/) 
 
-
+La toute première instruction du fichier déclare qu'il s'agit d'un script shell.
 ```bash 
 #!/bin/bash
 ```
-Cette première instruction du fichierdéclare qu'il s'agit d'un script shell.
+
 
 Voici ce qui se passe ensuite ligne par ligne 
 1. On débute une boucle qui déclare que l'on va prendre chaque fichier du répertoire dont l'extension est **pdf** dans une variable _inputfile_ (for inputfile ...;) 
-2. **do** débute l'execution de la boucle, pour chaque _inputfile_ onva faire quelque chose 
+2. **do** débute l'execution de la boucle, pour chaque _inputfile_ on va faire quelque chose 
 3. _outputfile="${inputfile%.*}.jpg"_  on récupère le nom du fichier et on le fait suivre d'une extension .jpg 
 4. là on utilise la fonction convert d'imagemagick (voir plus  bas) 
 5. cette ligne permet d'effacer le fichier original du  répertoire
 6. **done**  permet de terminer
 
 
+
+A propos de la fonction convert : 
+```bash 
+
+
+```
