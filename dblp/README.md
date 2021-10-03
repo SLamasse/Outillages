@@ -4,3 +4,5 @@ J'ai accompagné pour le  script (**dblp.py**) Bettina Desprot en 2021 qui a ré
 scientifique autour de l'intelligence artificielle par une étudiante
 du master en alternance
 [MIMO](https://histoire-master-informatique-mimo.pantheonsorbonne.fr/).
+
+Il ne s'agit que d'un tout petit extrait de son travail qui peut-être utile.. on ne sait jamais. 
